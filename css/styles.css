@@ -1,0 +1,183 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.section-heading {
+     color: #2F4F4F;
+}
+
+header .logo-text h1 {
+    color: #2F4F4F;
+}
+
+.nav-disabled {
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+    cursor: default;
+}
+
+.custom-navbar-bg {
+    background-color: #2F4F4F;
+}
+
+.btn-search {
+    background-color: #2F4F4F;
+    color: white;
+    border-color: #2F4F4F;
+}
+.btn-search:hover {
+    background-color: #243c3c;
+    border-color: #243c3c;
+    color: white;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #E9E4DC;
+    color: #2F4F4F;
+}
+
+.carousel-item {
+    padding-top: 50px;
+    min-height: 450px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item .container {
+    height: 100%;
+}
+
+.carousel-item .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.carousel-item .hero-content {
+}
+
+.carousel-indicators button {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.btn-primary {
+    background-color: #2F4F4F;
+    border-color: #2F4F4F;
+}
+
+.btn-primary:hover {
+    background-color: #243c3c;
+    border-color: #243c3c;
+}
+
+.btn-outline-primary {
+    color: #2F4F4F;
+    border-color: #2F4F4F;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2F4F4F;
+    border-color: #2F4F4F;
+    color: white;
+}
+
+.service-card .service-icon {
+    background-color: #2F4F4F;
+}
+.service-card .card-title {
+     color: #2F4F4F;
+}
+.service-card .btn-link {
+    color: #3A6EA5;
+}
+.service-card .btn-link:hover {
+    color: #2F4F4F;
+}
+.service-card {
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.news-card .btn-link {
+     color: #3A6EA5;
+}
+.news-card .btn-link:hover {
+    color: #2F4F4F;
+}
+
+.event-date {
+    background-color: #3A6EA5;
+    width: 80px;
+    flex-shrink: 0;
+}
+.event-info h3 {
+     color: #2F4F4F;
+}
+
+.connect-icon {
+     color: #2F4F4F;
+}
+.social-links-connect a:hover {
+    color: #2F4F4F !important;
+}
+
+footer {
+    background-color: #2F4F4F;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.social-links-footer a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.social-links-footer a:hover {
+    background-color: #5DA399;
+}
+
+.footer-bottom a:hover {
+    color: #ffffff !important;
+}
+
+.bg-light {
+    background-color: #E9E4DC !important;
+}
